@@ -4,6 +4,27 @@ A production-quality Student Management System built with **Laravel 12**, design
 commercial-grade SaaS-style application. Role-based dashboards for **Admins, Teachers and
 Students**, a modern Bootstrap 5.3 admin UI with dark mode, and a fully tested backend.
 
+## Screenshots
+
+### Login — glassmorphism UI
+![Login](docs/screenshots/login.png)
+
+### Admin Dashboard
+![Admin Dashboard](docs/screenshots/dashboard-admin.png)
+
+### Dark Mode
+![Admin Dashboard — Dark](docs/screenshots/dashboard-admin-dark.png)
+
+### Role-Aware Dashboards
+| Teacher | Student |
+|---|---|
+| ![Teacher Dashboard](docs/screenshots/dashboard-teacher.png) | ![Student Dashboard](docs/screenshots/dashboard-student.png) |
+
+### Register & Profile
+| Register | Profile |
+|---|---|
+| ![Register](docs/screenshots/register.png) | ![Profile](docs/screenshots/profile.png) |
+
 ## Tech Stack
 
 | Layer | Technology |
