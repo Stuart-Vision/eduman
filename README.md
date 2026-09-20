@@ -1,12 +1,16 @@
 # EduManage — Student Management System
 
-A production-quality Student Management System built with **Laravel 12**, designed as a
-commercial-grade SaaS-style application. Role-based dashboards for **Admins, Teachers and
-Students**, a modern Bootstrap 5.3 admin UI with dark mode, and a fully tested backend.
+EduManage is a Laravel student management portfolio project with separate dashboards for administrators, teachers, and students.
+
+The current foundation covers authentication, role-based access, profile management, and dashboards. Student records, attendance, fees, and examinations are planned modules.
+
+**Stack:** Laravel 12 · PHP · MySQL · Blade · Bootstrap
+
+[Setup](#getting-started) · [Screenshots](#screenshots) · [Testing](#testing) · [Architecture](#architecture-notes)
 
 ## Screenshots
 
-### Login — glassmorphism UI
+### Login
 ![Login](docs/screenshots/login.png)
 
 ### Admin Dashboard
@@ -52,6 +56,8 @@ Students**, a modern Bootstrap 5.3 admin UI with dark mode, and a fully tested b
 
 ## Getting Started
 
+Use a local development database. The `migrate:fresh --seed` command below drops existing tables before loading demo data.
+
 ```bash
 composer install
 npm install
@@ -81,7 +87,7 @@ php artisan serve
 php artisan test
 ```
 
-34 feature/unit tests cover authentication, email verification, password flows,
+The feature and unit test suites cover authentication, email verification, password flows,
 profile management, role middleware, gates and the role-aware dashboard.
 
 ## Architecture Notes
