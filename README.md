@@ -1,5 +1,7 @@
 # EduManage — Student Management System
 
+**Live demo:** [edumanage-jade.vercel.app](https://edumanage-jade.vercel.app) · Admin `admin@edumanage.test` · Teacher `teacher@edumanage.test` · Student `student@edumanage.test` · password `password` (demo data resets periodically)
+
 EduManage is a Laravel student management portfolio project with separate dashboards for administrators, teachers, and students.
 
 The current foundation covers authentication, role-based access, profile management, and dashboards. Student records, attendance, fees, and examinations are planned modules.
