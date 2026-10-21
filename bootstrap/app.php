@@ -13,6 +13,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
+        // Behind Vercel's proxy: trust forwarded headers so URLs use https.
+        $middleware->trustProxies(at: '*');
+
         $middleware->alias([
             'role' => EnsureUserHasRole::class,
         ]);
